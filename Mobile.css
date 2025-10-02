@@ -1,0 +1,127 @@
+#main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-img{
+    text-align: center;
+}
+.left-nav ul{
+    flex-direction: column;
+}
+.left-nav ul li a i{
+    display: none;
+}
+.right-nav{
+    display:none;
+}
+/* header section end  */
+/* slide section start  */
+.slide-img img{
+    width: 100%;
+    height: 250px;
+}
+.slide-img{
+    height: auto;
+}
+.overlay{
+    display: none;
+}
+.slide-text{
+    position: static;
+    color: black;
+    padding: 10px;
+}
+.slide-img:hover .slide-text h1{
+    color: #BE0F34;
+}
+.slide-text h1{
+    font-size: 20px;
+    margin-top: -4px;
+}
+.slide-text p{
+    font-size: .9rem;
+    font-weight: 400;
+}
+/* slide section end  */
+
+/* news and event section start hare */
+#news-and-event{
+    flex-direction: column;
+}
+.news-section{
+    flex-direction: column;
+}
+.news-card{
+    width: 100%;
+}
+/* news and event section end hare */
+
+/* discover section start hare */
+.disc-card-main{
+    flex-direction: column;
+}
+.disc-card{
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* discover section end hare */
+/* studying section start hare */
+.std-card-main{
+    flex-direction: column;
+}
+.std-card{
+    display: flex;
+    position: static;
+}
+.std-text{
+    position: static;
+    background-color:transparent;
+}
+.std-card img{
+    width: 100%;
+}
+.std-text h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.std-card:hover .std-text h2{
+    color: red;
+}
+/* studying section end hare */
+/* connect section */
+.contact-section{
+    flex-direction: column;
+    gap: 10px;
+}
+.media-icon a {      
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+
+/* infontion section */
+.information{
+    flex-direction: column;
+    border: none;
+}
+.information-about{
+    border: none;
+}
+.information-for{
+    border: none;
+}
+/* footer section */
+.footer{
+    flex-direction: column;
+    gap: 10px;
+}
+.contact p{
+    display: none;
+    font-size: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
